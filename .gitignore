@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Raw/local datasets
+data/*.csv
+data/*.zip
+data/*.xlsx
+
+# Generated outputs
+outputs/
